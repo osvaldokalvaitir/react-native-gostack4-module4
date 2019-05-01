@@ -1,0 +1,3 @@
+rootProject.name = 'react_native_modulo4'
+
+include ':app'

@@ -10,7 +10,7 @@
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
-Aplicação usando Redux, Redux-Saga, Ducks, styled-components e JSON Server.
+Aplicação usando Redux, Redux-Saga, reduxsauce, seamless-immutable, Ducks, styled-components e JSON Server.
 
 ## Índice
 
@@ -83,5 +83,9 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 - [Redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/redux.md)
 
 - [Redux-Saga](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/redux-saga.md)
+
+- [reduxsauce](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reduxsauce.md)
+
+- [seamless-immutable](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/seamless-immutable.md)
 
 - [styled-components](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/styled-components.md)

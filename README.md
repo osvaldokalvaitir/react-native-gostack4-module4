@@ -78,6 +78,10 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 - [react-native-iphone-x-helper](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-iphone-x-helper.md)
 
+- [react-native-swift](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-swift.md)
+
+- [react-native-track-player](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-track-player.md)
+
 - [reactotron-react-native](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reactotron-react-native.md)
 
 - [reactotron-redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reactotron-redux.md)

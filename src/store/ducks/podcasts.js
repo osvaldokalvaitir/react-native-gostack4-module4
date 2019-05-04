@@ -2,7 +2,7 @@ import { createReducer, createActions } from 'reduxsauce';
 import Immutable from 'seamless-immutable';
 
 /**
- * Action Types & Creators
+ * Types & Action Creators
  */
 const { Types, Creators } = createActions({
   loadRequest: null,
@@ -26,7 +26,7 @@ export const PodcastsTypes = Types;
 export default Creators;
 
 /**
- * Initial state
+ * Initial State
  */
 export const INITIAL_STATE = Immutable({
   data: [],

@@ -27,6 +27,24 @@ function* trackChanged() {
 export function* init() {
   yield call(TrackPlayer.setupPlayer);
 
+  TrackPlayer.updateOptions({
+    capabilities: [
+      TrackPlayer.CAPABILITY_PLAY,
+      TrackPlayer.CAPABILITY_PAUSE,
+      TrackPlayer.CAPABILITY_SKIP_TO_NEXT,
+      TrackPlayer.CAPABILITY_SKIP_TO_PREVIOUS,
+      TrackPlayer.CAPABILITY_STOP,
+    ],
+    notificationCapabilities: [
+      TrackPlayer.CAPABILITY_PLAY,
+      TrackPlayer.CAPABILITY_PAUSE,
+      TrackPlayer.CAPABILITY_SKIP_TO_NEXT,
+      TrackPlayer.CAPABILITY_SKIP_TO_PREVIOUS,
+      TrackPlayer.CAPABILITY_STOP,
+    ],
+    compactCapabilities: [TrackPlayer.CAPABILITY_PLAY, TrackPlayer.CAPABILITY_PAUSE],
+  });
+
   TrackPlayer.addEventListener('playback-state', () => {});
 }
 
@@ -76,4 +94,9 @@ export function* next() {
     yield call(TrackPlayer.skipToNext);
     yield put(PlayerActions.play());
   }
+}
+
+export function* reset() {
+  yield call(TrackPlayer.stop);
+  yield call(TrackPlayer.reset);
 }

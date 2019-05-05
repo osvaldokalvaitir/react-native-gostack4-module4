@@ -43,7 +43,7 @@ const Player = ({
 const mapStateToProps = state => ({
   player: state.player,
   currentEpisode: state.player.podcast
-    ? state.player.podcast.tracks.find(episode => episode === state.player.current)
+    ? state.player.podcast.tracks.find(episode => episode.id === state.player.current)
     : null,
 });
 

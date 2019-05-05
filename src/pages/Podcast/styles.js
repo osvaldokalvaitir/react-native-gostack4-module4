@@ -1,5 +1,11 @@
+import { Platform } from 'react-native';
 import styled from 'styled-components/native';
 import { getStatusBarHeight } from 'react-native-iphone-x-helper';
+
+const StatusBarHeight = Platform.select({
+  ios: getStatusBarHeight(),
+  android: 0,
+});
 
 export const Container = styled.View`
   flex: 1;
@@ -13,13 +19,13 @@ export const EpisodeList = styled.FlatList.attrs({
 export const PodcastDetails = styled.View`
   padding: 0 0 20px;
   align-items: center;
-  padding-top: ${getStatusBarHeight() + 30}px;
+  padding-top: ${StatusBarHeight + 30}px;
 `;
 
 export const Background = styled.ImageBackground`
   position: absolute;
   width: 100%;
-  height: ${340 + getStatusBarHeight()}px;
+  height: ${340 + StatusBarHeight}px;
   opacity: 0.2;
 `;
 
@@ -33,7 +39,7 @@ export const BackButton = styled.TouchableOpacity.attrs({
 })`
   position: absolute;
   left: 30px;
-  top: ${getStatusBarHeight() + 30}px;
+  top: ${StatusBarHeight + 30}px;
 `;
 
 export const PodcastTitle = styled.Text`

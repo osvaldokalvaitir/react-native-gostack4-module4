@@ -46,7 +46,7 @@ class Podcast extends Component {
             <PodcastDetails>
               <Background source={{ uri: podcast.cover }} blurRadius={5} />
 
-              <BackButton onPress={this.handleBack()}>
+              <BackButton onPress={() => this.handleBack()}>
                 <Icon name="arrow-back" size={24} color="#FFF" />
               </BackButton>
               <Cover source={{ uri: podcast.cover }} />
@@ -76,7 +76,7 @@ class Podcast extends Component {
 
 const mapStateToProps = state => ({
   currentEpisode: state.player.podcast
-    ? state.player.podcast.tracks.find(episode => episode === state.player.current)
+    ? state.player.podcast.tracks.find(episode => episode.id === state.player.current)
     : null,
 });
 

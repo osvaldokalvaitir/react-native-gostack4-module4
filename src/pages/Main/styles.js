@@ -1,3 +1,4 @@
+import { Platform } from 'react-native';
 import styled from 'styled-components/native';
 import { getStatusBarHeight } from 'react-native-iphone-x-helper';
 
@@ -7,7 +8,13 @@ export const Container = styled.View`
 `;
 
 export const PodcastList = styled.FlatList.attrs({
-  contentContainerStyle: { paddingTop: getStatusBarHeight() + 30, paddingBottom: 30 },
+  contentContainerStyle: {
+    ...Platform.select({
+      ios: { paddingTop: getStatusBarHeight() + 30 },
+      android: { paddingTop: 20 },
+    }),
+    paddingBottom: 30,
+  },
 })``;
 
 export const PageTitle = styled.Text`

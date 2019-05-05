@@ -10,7 +10,7 @@
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
-Aplicação usando Redux, Redux-Saga, reduxsauce, seamless-immutable, Ducks, styled-components e JSON Server.
+Aplicação usando Redux, Redux-Saga, Ducks, reduxsauce, seamless-immutable, styled-components, react-native-track-player, react-native-iphone-x-helper, JSON Server e Reactotron.
 
 ## Índice
 

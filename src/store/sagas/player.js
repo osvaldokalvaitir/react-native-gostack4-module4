@@ -17,7 +17,9 @@ function* trackChanged() {
     while (true) {
       const { nextTrack } = yield take(channel);
 
-      yield put(PlayerActions.setCurrent(nextTrack));
+      const playing = yield select(state => state.player.playing);
+
+      yield put(PlayerActions.setCurrent(playing ? nextTrack : null));
     }
   } finally {
     channel.close();

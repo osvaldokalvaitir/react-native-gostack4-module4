@@ -16,7 +16,9 @@ Aplicação usando Redux, Redux-Saga, Ducks, reduxsauce, seamless-immutable, sty
 
 - [Capturas de Tela](#capturas-de-tela)
 
-  - [](#)
+  - [Podcasts](#podcasts)
+
+  - [Player](#player)
 
 - [Desenvolvimento](#desenvolvimento)
 
@@ -38,10 +40,15 @@ Aplicação usando Redux, Redux-Saga, Ducks, reduxsauce, seamless-immutable, sty
 
 ## Capturas de Tela
 
-### Nome
+### Podcasts
 
-![Home](/assets/home.png)
-Esta é a primeira tela, onde encontram-se todos os produtos vindos da API, podendo também escolher uma categoria de produtos.
+![Podcasts](/assets/podcasts.png)
+Esta é a primeira tela, onde encontram-se todos os podcasts vindos da API.
+
+### Player
+
+![Player](/assets/player.png)
+Nesta tela, encontram-se todas as tracks do podcast escolhido. Clicando em uma das tracks, aparecerá um player na parte inferior, podendo pausar, ir para a track anterior ou ir para a próxima track.
 
 ## Desenvolvimento
 
@@ -119,17 +126,11 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
   - **Rotas**
 
-    - Categorias
+    - Podcasts
 
-      - Busca todas as categorias
+      - Busca todos os podcasts
 
-    - Produtos por Categoria
-
-      - Busca dados de todos os produtos da categoria selecionada
-
-    - Produtos
-
-      - Busca todos os dados do produto selecionado
+      - Busca dados de todas as tracks de um podcast selecionado
 
 ### Ferramentas
 

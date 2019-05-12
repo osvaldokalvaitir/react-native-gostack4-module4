@@ -14,6 +14,10 @@ Aplicação usando Redux, Redux-Saga, Ducks, reduxsauce, seamless-immutable, sty
 
 ## Índice
 
+- [Capturas de Tela](#capturas-de-tela)
+
+  - [](#)
+
 - [Desenvolvimento](#desenvolvimento)
 
   - [Configurações Iniciais](#configurações-iniciais)
@@ -27,6 +31,17 @@ Aplicação usando Redux, Redux-Saga, Ducks, reduxsauce, seamless-immutable, sty
 - [Utilizados no Projeto](#utilizados-no-projeto)
 
   - [Bibliotecas](#bibliotecas)
+
+  - [APIs](#apis)
+
+  - [Ferramentas](#ferramentas)
+
+## Capturas de Tela
+
+### Nome
+
+![Home](/assets/home.png)
+Esta é a primeira tela, onde encontram-se todos os produtos vindos da API, podendo também escolher uma categoria de produtos.
 
 ## Desenvolvimento
 
@@ -97,3 +112,25 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 - [seamless-immutable](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/seamless-immutable.md)
 
 - [styled-components](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/styled-components.md)
+
+### APIs
+
+- **API do Json Server**
+
+  - **Rotas**
+
+    - Categorias
+
+      - Busca todas as categorias
+
+    - Produtos por Categoria
+
+      - Busca dados de todos os produtos da categoria selecionada
+
+    - Produtos
+
+      - Busca todos os dados do produto selecionado
+
+### Ferramentas
+
+- [Reactotron](https://github.com/osvaldokalvaitir/projects-settings/blob/master/inspector/reactotron.md)

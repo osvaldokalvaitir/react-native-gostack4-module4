@@ -30,6 +30,8 @@ Aplicação usando Redux, Redux-Saga, Ducks, reduxsauce, seamless-immutable, sty
 
   - [Execução da API](#execução-da-api)
 
+  - [Observações](#observações)
+
 - [Utilizados no Projeto](#utilizados-no-projeto)
 
   - [Bibliotecas](#bibliotecas)
@@ -67,6 +69,20 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 ### Execução da API
 
 Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/json-server.md) e siga a Execução de API.
+
+### Observações
+
+Para o aúdio ficar executando em background no iOS, execute os seguintes procedimentos:
+
+- Clique com o botão direito na pasta `ios` e selecione `Reveal in Finder`
+
+- Encontre o arquivo de extensão `xcodeproj` e abra-o
+
+- Clique no arquivo e aparecerá a guia `Capabilities`
+
+- Na guia `Capabilities`, dê um `ON` na opção `Background Modes`
+
+- Em `Background Modes` e `Modes` selecione a opção `Audio, AirPlay, and Picture in Picture`.
 
 ## Utilizados no Projeto
 

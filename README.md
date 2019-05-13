@@ -72,7 +72,7 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 ### Observações
 
-Para o aúdio ficar executando em background no iOS, execute os seguintes procedimentos:
+Para o aúdio continuar sendo executado em background no iOS, execute os seguintes procedimentos:
 
 - Clique com o botão direito na pasta `ios` e selecione `Reveal in Finder`
 

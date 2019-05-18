@@ -56,33 +56,23 @@ Nesta tela, encontram-se todas as tracks do podcast escolhido. Clicando em uma d
 
 ### Configurações Iniciais
 
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga as Configurações Iniciais.
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configurações Iniciais`.
 
 ### Instalação do Projeto
 
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga a Instalação de Projeto.
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
 
 ### Execução do Projeto
 
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md) e siga a Execução de Projeto.
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md) e siga `Execução de Projeto`.
 
 ### Execução da API
 
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/json-server.md) e siga a Execução de API.
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/json-server.md) e siga `Execução de API`.
 
 ### Observações
 
-Para o aúdio continuar sendo executado em background no iOS, execute os seguintes procedimentos:
-
-- Clique com o botão direito na pasta `ios` e selecione `Reveal in Finder`
-
-- Encontre o arquivo de extensão `xcodeproj` e abra-o
-
-- Clique no arquivo e aparecerá a guia `Capabilities`
-
-- Na guia `Capabilities`, dê um `ON` na opção `Background Modes`
-
-- Em `Background Modes` e `Modes` selecione a opção `Audio, AirPlay, and Picture in Picture`.
+No aplicativo iOS, para o aúdio continuar sendo executado em background, clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/ide/xcode.md) e siga `Aúdio em background`, usando as ferramentas do Aplicativo iOS.
 
 ## Utilizados no Projeto
 
@@ -151,3 +141,7 @@ Para o aúdio continuar sendo executado em background no iOS, execute os seguint
 ### Ferramentas
 
 - [Reactotron](https://github.com/osvaldokalvaitir/projects-settings/blob/master/inspector/reactotron.md)
+
+###### Aplicativo iOS
+
+- [XCode](https://github.com/osvaldokalvaitir/projects-settings/blob/master/ide/xcode.md)

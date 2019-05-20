@@ -30,8 +30,6 @@ Aplicação usando Redux, Redux-Saga, Ducks, reduxsauce, seamless-immutable, sty
 
   - [Execução da API](#execução-da-api)
 
-  - [Observações](#observações)
-
 - [Utilizados no Projeto](#utilizados-no-projeto)
 
   - [Bibliotecas](#bibliotecas)
@@ -69,10 +67,6 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 ### Execução da API
 
 Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/json-server.md) e siga `Execução de API`.
-
-### Observações
-
-No aplicativo iOS, para o aúdio continuar sendo executado em background, clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/ide/xcode.md) e siga `Aúdio em background`, usando as ferramentas do Aplicativo iOS.
 
 ## Utilizados no Projeto
 
@@ -144,4 +138,4 @@ No aplicativo iOS, para o aúdio continuar sendo executado em background, clique
 
 ###### Aplicativo iOS
 
-- [XCode](https://github.com/osvaldokalvaitir/projects-settings/blob/master/ide/xcode.md)
+- [XCode](https://github.com/osvaldokalvaitir/projects-settings/blob/master/ide/xcode.md) - Siga `Aúdio em background` para o aúdio continuar sendo executado em background.

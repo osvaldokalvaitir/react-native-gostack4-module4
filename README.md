@@ -138,4 +138,4 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 ###### Aplicativo iOS
 
-- [XCode](https://github.com/osvaldokalvaitir/projects-settings/blob/master/ide/xcode.md) - Siga `Configurações de Projeto > Aúdio em background` para o aúdio continuar sendo executado em background.
+- [XCode](https://github.com/osvaldokalvaitir/projects-settings/blob/master/ide/xcode.md) - Siga `Configurações de Projeto > Aúdio em Background` para o aúdio continuar sendo executado em background.

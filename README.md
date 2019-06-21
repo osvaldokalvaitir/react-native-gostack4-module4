@@ -22,11 +22,11 @@ Aplicação usando Redux, Redux-Saga, Ducks, reduxsauce, seamless-immutable, sty
 
 - [Desenvolvimento](#desenvolvimento)
 
-  - [Configurações Iniciais](#configurações-iniciais)
+  - [Configuração do Ambiente](#configuração-do-ambiente)
 
   - [Instalação do Projeto](#instalação-do-projeto)
   
-  - [Execução do Projeto para Desenvolvimento](#execução-do-projeto-para-desenvolvimento)
+  - [Execução do Projeto](#execução-do-projeto)
 
   - [Execução da API](#execução-da-api)
 
@@ -52,15 +52,15 @@ Nesta tela, encontram-se todas as tracks do podcast escolhido. Clicando em uma d
 
 ## Desenvolvimento
 
-### Configurações Iniciais
+### Configuração do Ambiente
 
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configurações Iniciais`.
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configuração de Ambiente`.
 
 ### Instalação do Projeto
 
 Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
 
-### Execução do Projeto para Desenvolvimento
+### Execução do Projeto
 
 Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md) e siga `Execução de Projeto para Desenvolvimento`.
 

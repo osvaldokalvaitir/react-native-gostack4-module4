@@ -25,7 +25,7 @@ Aplicação usando Redux, Redux-Saga, Ducks, reduxsauce, seamless-immutable, sty
   - [Configuração do Ambiente](#configuração-do-ambiente)
 
   - [Instalação do Projeto](#instalação-do-projeto)
-  
+
   - [Execução do Projeto](#execução-do-projeto)
 
   - [Execução da API](#execução-da-api)
@@ -42,12 +42,12 @@ Aplicação usando Redux, Redux-Saga, Ducks, reduxsauce, seamless-immutable, sty
 
 ### Podcasts
 
-![Podcasts](/assets/podcasts.png)
+![Podcasts](/.github/assets/podcasts.png)
 Esta é a primeira tela, onde encontram-se todos os podcasts vindos da API.
 
 ### Player
 
-![Player](/assets/player.png)
+![Player](/.github/assets/player.png)
 Nesta tela, encontram-se todas as tracks do podcast escolhido. Clicando em uma das tracks, aparecerá um player na parte inferior, podendo pausar, ir para a track anterior ou ir para a próxima track.
 
 ## Desenvolvimento
